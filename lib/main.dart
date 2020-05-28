@@ -78,6 +78,8 @@ class _MyAppState extends State<MyApp> {
                 Padding(
                   padding: const EdgeInsets.only(top: 30, bottom: 11),
                   child: FlatButton(
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(5)),
                     child: Text(
                       'ВОЙТИ',
                       style:
@@ -86,7 +88,8 @@ class _MyAppState extends State<MyApp> {
                     color: Color(0xff4cb050),
                     textColor: Colors.white,
                     onPressed: () {},
-                    padding: EdgeInsets.only(top: 15, bottom: 16),
+                    padding: EdgeInsets.only(
+                        top: 16, bottom: 15, left: 65, right: 65),
                   ),
                 ),
                 Text(
@@ -187,6 +190,8 @@ class _MyAppState extends State<MyApp> {
                 Padding(
                   padding: const EdgeInsets.only(top: 30, bottom: 11),
                   child: FlatButton(
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(5)),
                     child: Text(
                       'ВОЙТИ',
                       style:
@@ -195,7 +200,8 @@ class _MyAppState extends State<MyApp> {
                     color: Color(0xff4cb050),
                     textColor: Colors.white,
                     onPressed: () {},
-                    padding: EdgeInsets.only(top: 15, bottom: 16),
+                    padding: EdgeInsets.only(
+                        top: 15, bottom: 16, left: 65, right: 65),
                   ),
                 ),
                 Text(
